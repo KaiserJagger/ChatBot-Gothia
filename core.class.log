@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5493815399029@s.whatsapp.net',
     fromMe: false,
-    id: '3AEF80248E6922055AD4',
+    id: '3AB66856B17803BCADE5',
     participant: undefined
   },
-  messageTimestamp: 1726328715,
+  messageTimestamp: 1726594023,
   pushName: 'Mel Laboratorio',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '5493815399029'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7da99ffd-2962-482e-9370-d247944f498b',
-  keyword: 'key_7101f263-91ce-42a0-8872-63471305053e',
+  ref: 'ans_424c73e2-d005-454e-af9a-1d3d7fb49e12',
+  keyword: 'key_6de7041d-8dae-48d7-ab66-ba906e8568df',
   answer: '🙌 Hola, bienvenido al chatbot de GOTHIA. ¿Cómo puedo ayudarte hoy?',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '3ba2b813a4ec0001d4c6136f4ceed2df'
+  refSerialize: '759806856e0c0483e6fa19de9b475e97'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_baf89b43-dabb-4ad4-9868-3f403c270f49',
-  keyword: 'ans_7da99ffd-2962-482e-9370-d247944f498b',
+  ref: 'ans_152ebd94-35f0-4dbe-afbc-99ac70f22b2e',
+  keyword: 'ans_424c73e2-d005-454e-af9a-1d3d7fb49e12',
   answer: '👉 *Estado* para consultar el estado de tu equipo.\n' +
     '👉 *Garantía* para preguntas sobre garantía.\n' +
     '👉 *Medios de pago* para formas de pago.\n' +
@@ -58,49 +58,36 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object]
-    ],
+    nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: '2e8497b17893703cd8da1877980c957f'
+  refSerialize: '5f0bf99927427ec546ec059d02e8b259'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5493815399029@s.whatsapp.net',
     fromMe: false,
-    id: '3AF48BB6C5028330DECB',
+    id: '3A24A89211CF4858CD15',
     participant: undefined
   },
-  messageTimestamp: 1726328725,
+  messageTimestamp: 1726594031,
   pushName: 'Mel Laboratorio',
   broadcast: false,
   message: Message {
-    conversation: 'Reparaciones',
+    conversation: 'Ubicación',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Reparaciones',
+  body: 'Ubicación',
   from: '5493815399029'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_954dcc4b-6bf0-4ec5-9c9e-81be8c620249',
-  keyword: 'key_d94659e6-1b4c-4ce3-a406-a32d3db56a89',
-  answer: 'Ofrecemos una amplia gama de servicios de reparación para equipos electrónicos.',
+  ref: 'ans_63254bdf-8aec-4a5e-98e6-68f128d95db3',
+  keyword: 'key_d1748a60-4813-450d-bcb8-4078b38519d8',
+  answer: 'Nuestros horarios de atención son de Lunes a Viernes de 9 a 18hs y sábados de 8 a 15hs.',
   options: {
     media: null,
     buttons: [],
@@ -113,12 +100,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '40374d23f4545a930861417bc26c8d0d'
+  refSerialize: '69d34a2f7e9a98f3d43ae5b2f778e296'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_276163cb-927d-468e-b906-17c157ce4dc0',
-  keyword: 'ans_954dcc4b-6bf0-4ec5-9c9e-81be8c620249',
-  answer: 'Para PC y notebooks, reparamos de marcas líderes como Dell, HP, Lenovo y Asus. ¿Qué problema tienes con tu equipo?',
+  ref: 'ans_5853bb1c-4d7e-45ff-9460-b15dbc6016ae',
+  keyword: 'ans_63254bdf-8aec-4a5e-98e6-68f128d95db3',
+  answer: 'Nuestro local está ubicado en: Av. Avellaneda 284 - 1° Piso. Puedes visitarnos en ese horario.',
   options: {
     media: null,
     buttons: [],
@@ -131,12 +118,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '396b8e9e4abc98b89a35b60cb30b273a'
+  refSerialize: 'c119b08dc8cbf88dc172e01c5ceb35f0'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2fc31fbd-817d-498d-944b-48e98895af80',
-  keyword: 'ans_276163cb-927d-468e-b906-17c157ce4dc0',
-  answer: 'Para reparaciones de celulares, ya sea iPhone o Android, podemos ayudarte con problemas de hardware, software, y más. ¿Qué tipo de reparación necesitas?',
+  ref: 'ans_4eef8c1e-d01e-4048-9752-2c2e46054047',
+  keyword: 'ans_5853bb1c-4d7e-45ff-9460-b15dbc6016ae',
+  answer: '¿Hay algo más en lo que pueda ayudarte? (Escribe "SI" para más opciones o "NO" para finalizar)',
   options: {
     media: null,
     buttons: [],
@@ -149,87 +136,31 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '6f856acc2ec4d51a560941ebb1ba15db'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_56f609b5-5fb5-4ff8-a8c1-b5583ca6b45c',
-  keyword: 'ans_2fc31fbd-817d-498d-944b-48e98895af80',
-  answer: '¿Hay algo más en lo que pueda ayudarte?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9c1975621746df03b7c072d193c3af14'
+  refSerialize: '1c27e70f7e2817e4139e0c4951a4b420'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5493815399029@s.whatsapp.net',
     fromMe: false,
-    id: '3AFE2B69B47A25D09998',
+    id: '3A323563153BB0EF0F9C',
     participant: undefined
   },
-  messageTimestamp: 1726328739,
+  messageTimestamp: 1726594037,
   pushName: 'Mel Laboratorio',
   broadcast: false,
   message: Message {
-    conversation: 'Precios',
+    conversation: 'No',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Precios',
-  from: '5493815399029'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493815399029@s.whatsapp.net',
-    fromMe: false,
-    id: '3ADA6CB38D18667E6E15',
-    participant: undefined
-  },
-  messageTimestamp: 1726328746,
-  pushName: 'Mel Laboratorio',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
+  body: 'No',
   from: '5493815399029'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7da99ffd-2962-482e-9370-d247944f498b',
-  keyword: 'key_7101f263-91ce-42a0-8872-63471305053e',
-  answer: '🙌 Hola, bienvenido al chatbot de GOTHIA. ¿Cómo puedo ayudarte hoy?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '3ba2b813a4ec0001d4c6136f4ceed2df'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_baf89b43-dabb-4ad4-9868-3f403c270f49',
-  keyword: 'ans_7da99ffd-2962-482e-9370-d247944f498b',
+  ref: 'ans_a26d7e73-1bea-44c7-8bf8-7bd986dc17a6',
+  keyword: 'key_96141500-b7a5-4e1c-b18d-d90c1c5d9be9',
   answer: '👉 *Estado* para consultar el estado de tu equipo.\n' +
     '👉 *Garantía* para preguntas sobre garantía.\n' +
     '👉 *Medios de pago* para formas de pago.\n' +
@@ -249,49 +180,54 @@
     delay: 0,
     idle: null,
     ref: null,
-    nested: [
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object], [Object], [Object], [Object],
-      [Object]
-    ],
+    nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: '2e8497b17893703cd8da1877980c957f'
+  refSerialize: '78f91321a3227460d7647a46945c43b3'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_39c66399-bc0b-49f1-bf07-b9e080c94e8b',
+  keyword: 'ans_a26d7e73-1bea-44c7-8bf8-7bd986dc17a6',
+  answer: '¿Hay algo más en lo que pueda ayudarte? (Escribe "SI" para más opciones o "NO" para finalizar)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd1bca260404f743ae5f2cfb3200dac2a'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5493815399029@s.whatsapp.net',
     fromMe: false,
-    id: '3A7F79A937BF82D0E998',
+    id: '3ADFCBC2FDFBA1725068',
     participant: undefined
   },
-  messageTimestamp: 1726328749,
+  messageTimestamp: 1726594040,
   pushName: 'Mel Laboratorio',
   broadcast: false,
   message: Message {
-    conversation: 'Precios',
+    conversation: 'No',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Precios',
+  body: 'No',
   from: '5493815399029'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e6f6bedd-454a-40ef-ac71-aa1123332617',
-  keyword: 'key_8ba53b69-8b69-4bf6-8c26-e2416c4e846b',
-  answer: 'Los precios de cambio de piezas varían según el modelo de tu equipo. Si nos pasas el modelo, podemos darte un estimativo para batería, tapa, glass, módulo, pin, flex, o cámara.',
+  ref: 'ans_993e0115-e862-47df-b251-8f65884a8502',
+  keyword: 'key_034ddbcb-da2c-42fe-a27c-2405bd5ba572',
+  answer: 'Gracias por comunicarte con nosotros. ¡Que tengas un excelente día! 😊',
   options: {
     media: null,
     buttons: [],
@@ -304,43 +240,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'f37c13e15a34cd6b57a57f6dec01104e'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_81440f34-ed42-4838-a680-52b66d7b2f9a',
-  keyword: 'ans_e6f6bedd-454a-40ef-ac71-aa1123332617',
-  answer: '¿Hay algo más en lo que pueda ayudarte?',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'e1bd0ecf01c086a8360bd306f7a99745'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493815399029@s.whatsapp.net',
-    fromMe: false,
-    id: '3A317EC420E47BA045EA',
-    participant: undefined
-  },
-  messageTimestamp: 1726328766,
-  pushName: 'Mel Laboratorio',
-  broadcast: false,
-  message: Message {
-    conversation: 'Reparaciones',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Reparaciones',
-  from: '5493815399029'
+  refSerialize: '58cbb85e2c699128e89856f8b31fce46'
 }
