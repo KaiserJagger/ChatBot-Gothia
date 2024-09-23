@@ -8,14 +8,12 @@ const flowEstadoEquipo = require('./flows/estadoEquipo.js');
 const flowGarantia = require('./flows/garantia.js');
 const flowMediosPago = require('./flows/mediosPago.js');
 const flowHorarios = require('./flows/horarios.js');
+const flowUbicacion = require('./flows/ubicacion.js')
 const flowDemoras = require('./flows/demoras.js');
 const flowPreciosPiezas = require('./flows/preciosPiezas.js');
 const flowRecibirEquipos = require('./flows/recibirEquipos.js');
 const flowAccesorios = require('./flows/accesorios.js');
-const flowDesbloqueoPin = require('./flows/desbloqueoPin.js');
 const flowRetiroDomicilio = require('./flows/retiroDomicilio.js');
-const flowEnvioAccesorios = require('./flows/envioAccesorios.js');
-const flowTempladosHidrogel = require('./flows/templadosHidrogel.js');
 const flowReparacionesServicios = require('./flows/reparacionesServicios.js');
 const flowFinalizarConversacion = require('./flows/finalizarConversacion.js');
 const flowSeleccionOpciones = require('./flows/seleccionOpciones.js');
@@ -27,7 +25,7 @@ const MONGO_DB_NAME = 'db_bot';
 
 // Flujo de saludo principal
 const flowSaludo = addKeyword(['hola', 'ole', 'alo', 'buen dia', 'buenas tardes', 'buenas noches', 'buenas'])
-    .addAnswer('🙌 Hola, bienvenido al chatbot de GOTHIA. ¿Cómo puedo ayudarte hoy?')
+    .addAnswer('🙌 ¡Hola! Soy Toto. Te doy la bienvenida al Asistente Virtual de GOTHIA. Tené en cuenta que soy un robot, si me escribís cosas muy largas puedo no entender. Por favor, teneme paciencia. Para poder interactuar con nuestros operadores dbeeras responder las distintas opciones. Luego de completar los paso te derivaremos automáticamente a un operador.')
     .addAnswer(generarMenu());
 
 // Inicialización del bot
@@ -44,15 +42,13 @@ const main = async () => {
             flowEstadoEquipo, 
             flowGarantia, 
             flowMediosPago, 
-            flowHorarios, 
+            flowHorarios,
+            flowUbicacion, 
             flowDemoras, 
             flowPreciosPiezas, 
             flowRecibirEquipos, 
             flowAccesorios, 
-            flowDesbloqueoPin, 
             flowRetiroDomicilio, 
-            flowEnvioAccesorios, 
-            flowTempladosHidrogel, 
             flowReparacionesServicios
         ]);
         const adapterProvider = createProvider(BaileysProvider);
