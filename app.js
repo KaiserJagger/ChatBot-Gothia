@@ -25,7 +25,7 @@ const MONGO_DB_NAME = 'db_bot';
 
 // Flujo de saludo principal
 const flowSaludo = addKeyword(['hola', 'ole', 'alo', 'buen dia', 'buenas tardes', 'buenas noches', 'buenas'])
-    .addAnswer('🙌 ¡Hola! Soy Toto. Te doy la bienvenida al Asistente Virtual de GOTHIA. Tené en cuenta que soy un robot, si me escribís cosas muy largas puedo no entender. Por favor, teneme paciencia. Para poder interactuar con nuestros operadores dbeeras responder las distintas opciones. Luego de completar los paso te derivaremos automáticamente a un operador.')
+    .addAnswer('🙌 ¡Hola! Soy su asistente virtual de GOTHIA. Para poder comunicarnos es muy importante que escriba el numero de la opcion deseada.')
     .addAnswer(generarMenu());
 
 // Inicialización del bot

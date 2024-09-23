@@ -1,0 +1,453 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3AEC461EF39F3557B926',
+    participant: undefined
+  },
+  messageTimestamp: 1727115641,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5493815399029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3A62F3E0F29D63B832FD',
+    participant: undefined
+  },
+  messageTimestamp: 1727115647,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5493815399029'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ad8d61c4-5a16-40a7-be85-80bc4140d31a',
+  keyword: 'key_f4d6d960-58de-486d-be8f-05d9e06a6d65',
+  answer: '🙌 ¡Hola! Soy Toto. Te doy la bienvenida al Asistente Virtual de GOTHIA. Tené en cuenta que soy un robot, si me escribís cosas muy largas puedo no entender. Por favor, teneme paciencia. Para poder interactuar con nuestros operadores deberias escribir las distintas opciones. Luego te derivaremos automáticamente a un operador.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7fb26ea3aec674400b57943c75cb39b7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1939853f-a310-4fff-8077-47e3465b2915',
+  keyword: 'ans_ad8d61c4-5a16-40a7-be85-80bc4140d31a',
+  answer: '*Escriba algunas de las opciones:*\n' +
+    '👉 *1:* para consultar el estado de tu equipo.\n' +
+    '👉 *2:* para conocer nuestros servicios de reparación.\n' +
+    '👉 *3:* para conocer que equipos recibimos para reparaciones o servicios.\n' +
+    '👉 *4:* para consultas sobre el cambio de piezas.\n' +
+    '👉 *5:* para saber si la reparación puede hacerse en el día.\n' +
+    '👉 *6:* para información sobre cargadores, cables, fundas y más.\n' +
+    '👉 *7:* para conocer nuestros horarios.\n' +
+    '👉 *8:* para saber donde estamos ubicados.\n' +
+    '👉 *9:* para preguntas sobre garantía.\n' +
+    '👉 *10:* para ver nuestras formas de pago.\n' +
+    '👉 *11:* para coordinar retiro de equipos a domicilio.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '96e193a2cc1145c4dd42466faa98008c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3A9F81B5640F597968D1',
+    participant: undefined
+  },
+  messageTimestamp: 1727115668,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '5493815399029'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_712c730b-6b1a-4d95-8547-54159ea33894',
+  keyword: 'key_8c985bb2-37c7-41be-a85a-7ae7781ef2e5',
+  answer: 'Ofrecemos una amplia gama de servicios de reparación para equipos electrónicos.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '1792571ccbef75cd281fc7376d645099'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_311b6a1c-2647-487f-9dd9-3773fc2b9c02',
+  keyword: 'ans_712c730b-6b1a-4d95-8547-54159ea33894',
+  answer: 'Reparamos PCs y notebooks de marcas como Dell, HP, Lenovo, Asus, entre otras. ¿Qué problema tienes con tu equipo?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6cf84f016c28e3b48df73275888386b6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_00e76768-3021-40ac-81f6-89072a337e45',
+  keyword: 'ans_311b6a1c-2647-487f-9dd9-3773fc2b9c02',
+  answer: 'Para celulares, tanto iPhone como Android, podemos ayudarte con problemas de hardware y software. ¿Qué tipo de reparación necesitas?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a830d263bfa7e92f64573b0cba754510'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a5ec9050-0294-45f6-b942-d367eec08af4',
+  keyword: 'ans_00e76768-3021-40ac-81f6-89072a337e45',
+  answer: '¿Hay algo más en lo que pueda ayudarte? (Escribe nuevamente un número o "NO" para finalizar)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '1d49d51de72b03cbad0784197cb91979'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3A95DDAF45650FB43112',
+    participant: undefined
+  },
+  messageTimestamp: 1727115673,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '3',
+  from: '5493815399029'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1e5abbf1-b169-4413-bbd7-c5e79abd5f46',
+  keyword: 'key_4e8c1459-ca00-4941-925e-ec682c7500b7',
+  answer: 'Sí, recibimos equipos tanto de Apple (iOS) como de Android para reparación. ¿Podrías decirme el modelo de tu celular para darte más detalles?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '79272dfaa8f2835cda395884c159da03'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ba3c7e4a-939f-44a9-b61d-e94d6102dda5',
+  keyword: 'ans_1e5abbf1-b169-4413-bbd7-c5e79abd5f46',
+  answer: 'También reparamos PCs y notebooks de otras marcas líderes. ¿Qué marca y modelo de PC o notebook necesitas reparar?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '55d77fce13be37daffb098745a591595'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_962fc9e7-c44e-466a-ac19-941eaa066437',
+  keyword: 'ans_ba3c7e4a-939f-44a9-b61d-e94d6102dda5',
+  answer: '¿Hay algo más en lo que pueda ayudarte? (Escribe nuevamente un número o "NO" para finalizar)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '85495634ca8ff86c6b4ca87f16474e6d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3AA6509C280AFE86E541',
+    participant: undefined
+  },
+  messageTimestamp: 1727115677,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'No',
+  from: '5493815399029'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3edbd8ce-e818-42cf-ae2e-e1ec1e4831fb',
+  keyword: 'key_6884f0f2-ba65-480a-8a27-ffba6e61eee4',
+  answer: '*Escriba algunas de las opciones:*\n' +
+    '👉 *1:* para consultar el estado de tu equipo.\n' +
+    '👉 *2:* para conocer nuestros servicios de reparación.\n' +
+    '👉 *3:* para conocer que equipos recibimos para reparaciones o servicios.\n' +
+    '👉 *4:* para consultas sobre el cambio de piezas.\n' +
+    '👉 *5:* para saber si la reparación puede hacerse en el día.\n' +
+    '👉 *6:* para información sobre cargadores, cables, fundas y más.\n' +
+    '👉 *7:* para conocer nuestros horarios.\n' +
+    '👉 *8:* para saber donde estamos ubicados.\n' +
+    '👉 *9:* para preguntas sobre garantía.\n' +
+    '👉 *10:* para ver nuestras formas de pago.\n' +
+    '👉 *11:* para coordinar retiro de equipos a domicilio.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2cf933d70256c20e961cb1ab5f6e9b96'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_864b1737-c92a-411a-8944-f0a4e6cdd423',
+  keyword: 'ans_3edbd8ce-e818-42cf-ae2e-e1ec1e4831fb',
+  answer: '¿Hay algo más en lo que pueda ayudarte? (Escribe nuevamente un número o "NO" para finalizar)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'aaaa26ee977d7d64d547209284a63c55'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3A896D14548B6514609C',
+    participant: undefined
+  },
+  messageTimestamp: 1727115684,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Si',
+  from: '5493815399029'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3AFF503556B51ECD3EE7',
+    participant: undefined
+  },
+  messageTimestamp: 1727115688,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'No',
+  from: '5493815399029'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3edbd8ce-e818-42cf-ae2e-e1ec1e4831fb',
+  keyword: 'key_6884f0f2-ba65-480a-8a27-ffba6e61eee4',
+  answer: '*Escriba algunas de las opciones:*\n' +
+    '👉 *1:* para consultar el estado de tu equipo.\n' +
+    '👉 *2:* para conocer nuestros servicios de reparación.\n' +
+    '👉 *3:* para conocer que equipos recibimos para reparaciones o servicios.\n' +
+    '👉 *4:* para consultas sobre el cambio de piezas.\n' +
+    '👉 *5:* para saber si la reparación puede hacerse en el día.\n' +
+    '👉 *6:* para información sobre cargadores, cables, fundas y más.\n' +
+    '👉 *7:* para conocer nuestros horarios.\n' +
+    '👉 *8:* para saber donde estamos ubicados.\n' +
+    '👉 *9:* para preguntas sobre garantía.\n' +
+    '👉 *10:* para ver nuestras formas de pago.\n' +
+    '👉 *11:* para coordinar retiro de equipos a domicilio.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2cf933d70256c20e961cb1ab5f6e9b96'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_864b1737-c92a-411a-8944-f0a4e6cdd423',
+  keyword: 'ans_3edbd8ce-e818-42cf-ae2e-e1ec1e4831fb',
+  answer: '¿Hay algo más en lo que pueda ayudarte? (Escribe nuevamente un número o "NO" para finalizar)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'aaaa26ee977d7d64d547209284a63c55'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493815399029@s.whatsapp.net',
+    fromMe: false,
+    id: '3A40A882776B0732CDFD',
+    participant: undefined
+  },
+  messageTimestamp: 1727115691,
+  pushName: 'Laboratorio',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'No',
+  from: '5493815399029'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c614efbc-a4d4-4d78-9f69-052caa52e69b',
+  keyword: 'key_e2c91186-c320-4d51-9d2d-6956c60f1c9e',
+  answer: 'Gracias por comunicarte con nosotros. ¡Que tengas un excelente día! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '477de90d2740431f932d4bfedb712ee8'
+}
