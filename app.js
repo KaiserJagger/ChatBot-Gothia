@@ -7,8 +7,7 @@ const MongoAdapter = require('@bot-whatsapp/database/mongo');
 const flowEstadoEquipo = require('./flows/estadoEquipo.js');
 const flowGarantia = require('./flows/garantia.js');
 const flowMediosPago = require('./flows/mediosPago.js');
-const flowHorarios = require('./flows/horarios.js');
-const flowUbicacion = require('./flows/ubicacion.js')
+const flowHoraYUbi = require('./flows/horariosUbicacion.js');
 const flowDemoras = require('./flows/demoras.js');
 const flowPreciosPiezas = require('./flows/preciosPiezas.js');
 const flowRecibirEquipos = require('./flows/recibirEquipos.js');
@@ -16,7 +15,7 @@ const flowAccesorios = require('./flows/accesorios.js');
 const flowRetiroDomicilio = require('./flows/retiroDomicilio.js');
 const flowReparacionesServicios = require('./flows/reparacionesServicios.js');
 const flowFinalizarConversacion = require('./flows/finalizarConversacion.js');
-const flowSeleccionOpciones = require('./flows/seleccionOpciones.js');
+const {flowSeleccionOpciones, flowNo} = require('./flows/seleccionOpciones.js');
 const { generarMenu } = require('./flows/common.js');
 
 // Datos de conexión a MongoDB
@@ -25,9 +24,10 @@ const MONGO_DB_NAME = 'db_bot';
 
 // Flujo de saludo principal
 const flowSaludo = addKeyword(['hola', 'ole', 'alo', 'buen dia', 'buenas tardes', 'buenas noches', 'buenas'])
-    .addAnswer('🙌 ¡Hola! Soy su asistente virtual de GOTHIA. Para poder comunicarnos es muy importante que escriba el numero de la opcion deseada.')
-    .addAnswer(generarMenu());
-
+    .addAnswer('Bienvenido al Laboratorio Tecnico GOTHIA')
+    .addAnswer('¿En que puedo ayudarte?. Ten en cuenta que soy un Asistente virtual. *Utiliza las siguientes opciones de la lista:*')
+    .addAnswer(generarMenu())
+    
 // Inicialización del bot
 const main = async () => {
     try {
@@ -39,11 +39,11 @@ const main = async () => {
             flowSaludo, 
             flowSeleccionOpciones, 
             flowFinalizarConversacion,
+            flowNo,
             flowEstadoEquipo, 
             flowGarantia, 
             flowMediosPago, 
-            flowHorarios,
-            flowUbicacion, 
+            flowHoraYUbi,
             flowDemoras, 
             flowPreciosPiezas, 
             flowRecibirEquipos, 
@@ -63,4 +63,6 @@ const main = async () => {
     }
 };
 
-main();
+main().catch((error) => {
+    console.error('Error en la ejecución del main:', error);
+});
